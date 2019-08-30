@@ -1,10 +1,9 @@
 package com.layman.config.service;
 
-import com.layman.entity.TbPermission;
-import com.layman.entity.TbUser;
+import com.layman.oauth2.resource.entity.TbPermission;
+import com.layman.oauth2.resource.entity.TbUser;
 import com.layman.service.TbPermissionService;
 import com.layman.service.TbUserService;
-import com.layman.service.impl.TbPermissionServiceImpl;
 import org.assertj.core.util.Lists;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
@@ -15,7 +14,6 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 /**

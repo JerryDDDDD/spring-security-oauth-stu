@@ -1,7 +1,7 @@
 package com.layman.service.impl;
 
-import com.layman.entity.TbUser;
-import com.layman.mapper.TbUserMapper;
+import com.layman.oauth2.resource.entity.TbUser;
+import com.layman.oauth2.resource.mapper.TbUserMapper;
 import com.layman.service.TbUserService;
 import org.springframework.stereotype.Service;
 import tk.mybatis.mapper.entity.Example;

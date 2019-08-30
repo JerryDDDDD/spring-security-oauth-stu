@@ -1,7 +1,7 @@
 package com.layman.service.impl;
 
-import com.layman.entity.TbPermission;
-import com.layman.mapper.TbPermissionMapper;
+import com.layman.oauth2.resource.entity.TbPermission;
+import com.layman.oauth2.resource.mapper.TbPermissionMapper;
 import com.layman.service.TbPermissionService;
 import org.springframework.stereotype.Service;
 

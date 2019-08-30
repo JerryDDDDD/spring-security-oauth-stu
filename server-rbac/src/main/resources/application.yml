@@ -23,5 +23,5 @@ server:
   port: 8080
 
 mybatis:
-  type-aliases-package: com.layman.entity
+  type-aliases-package: com.layman.oauth2.resource.entity
   mapper-locations: classpath:/mapper/*.xml

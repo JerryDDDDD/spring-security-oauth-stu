@@ -13,7 +13,7 @@
 
         <!-- 配置 tk.mybatis 插件 -->
         <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
-            <property name="mappers" value="tk.mybatis.mapper.MyMapper"/>
+            <property name="mappers" value="tk.mybatis.tk.mybatis.mapper.MyMapper"/>
         </plugin>
 
         <!-- 配置数据库连接 -->
@@ -25,14 +25,14 @@
         </jdbcConnection>
 
         <!-- 配置实体类存放路径 -->
-        <javaModelGenerator targetPackage="com.layman.entity" targetProject="src/main/java"/>
+        <javaModelGenerator targetPackage="com.layman.oauth2.resource.entity" targetProject="src/main/java"/>
 
         <!-- 配置 XML 存放路径 -->
         <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/>
 
         <!-- 配置 DAO 存放路径 -->
         <javaClientGenerator
-                targetPackage="com.layman.mapper"
+                targetPackage="com.layman.oauth2.resource.mapper"
                 targetProject="src/main/java"
                 type="XMLMAPPER"/>
 

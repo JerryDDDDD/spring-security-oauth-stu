@@ -1,6 +1,6 @@
 package com.layman.service;
 
-import com.layman.entity.TbPermission;
+import com.layman.oauth2.resource.entity.TbPermission;
 
 import java.util.List;
 

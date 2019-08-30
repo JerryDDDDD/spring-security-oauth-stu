@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.layman.mapper.OauthAccessTokenMapper">
-  <resultMap id="BaseResultMap" type="com.layman.entity.OauthAccessToken">
+<mapper namespace="com.layman.oauth2.resource.mapper.OauthAccessTokenMapper">
+  <resultMap id="BaseResultMap" type="com.layman.oauth2.resource.entity.OauthAccessToken">
     <!--
       WARNING - @mbg.generated
     -->

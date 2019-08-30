@@ -1,6 +1,6 @@
 package com.layman.service;
 
-import com.layman.entity.TbUser;
+import com.layman.oauth2.resource.entity.TbUser;
 
 /**
  * @InterfaceName TbUserService

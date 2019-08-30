@@ -12,7 +12,7 @@ import tk.mybatis.spring.annotation.MapperScan;
  * @Version 3.0
  **/
 @SpringBootApplication
-@MapperScan(basePackages = "com.layman.mapper")
+@MapperScan(basePackages = "com.layman.oauth2.resource.mapper")
 public class OAuth2RBACApplication {
 
     public static void main(String[] args) {

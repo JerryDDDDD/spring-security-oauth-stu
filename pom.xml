@@ -27,6 +27,7 @@
         <module>dependencies</module>
         <module>server</module>
         <module>server-jdbc</module>
+        <module>resource</module>
     </modules>
 
     <licenses>
